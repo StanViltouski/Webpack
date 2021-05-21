@@ -1,8 +1,11 @@
 {
   "name": "webpack",
+  "author": "Stanislau Viltouski",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "keywords": [],
+  "license": "ISC",
   "scripts": {
     "dev": "webpack-dev-server --open --config webpack.dev.config.js",
     "build": "rimraf dist && webpack --config webpack.build.config.js",
@@ -12,8 +15,6 @@
     "> 1%",
     "last 3 version"
   ],
-  "author": "Stanislau Viltouski",
-  "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^9.8.6",
     "babel-core": "^6.26.3",
